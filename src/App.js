@@ -12,6 +12,7 @@ import Bread from "./components/bread/Bread";
 
 function App() {
   const { pathname, state } = useLocation();
+  console.log("first")
   return (
     <div className="App">
       <Header />
